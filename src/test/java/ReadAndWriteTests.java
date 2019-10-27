@@ -18,7 +18,7 @@ class ReadAndWriteTests {
 
     @Test
     void StartTest()  {
-        AdminController.start();
+       // AdminController.start();
     }
 
     //Без /start этот тест не запустить.

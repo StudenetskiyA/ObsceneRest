@@ -3,7 +3,9 @@ package com.dayre.obscenerest;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SongResultDao {
    // private static final SessionFactory sessionFactory = HibernateSessionFactoryUtil.getSessionFactory();
     private final Session session =  HibernateSessionFactoryUtil.getSessionFactory().openSession();

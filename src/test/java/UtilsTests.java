@@ -1,3 +1,4 @@
+import com.dayre.obscenerest.Application;
 import com.dayre.obscenerest.controller.AdminController;
 import com.dayre.obscenerest.controller.SearchByIdController;
 import org.junit.jupiter.api.Test;
@@ -13,6 +14,6 @@ class UtilsTests {
     void splitTagsTest(){
         String test = "tag1, tag2,tag3, ghhgjhdgjhgmm";
         List<String> result = Arrays.asList("tag1","tag2","tag3","ghhgjhdgjhgmm");
-        assertEquals(result, AdminController.getListFromString(test));
+        assertEquals(result, Application.getListFromString(test));
     }
 }

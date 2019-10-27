@@ -14,7 +14,7 @@ public class Application {
             "<meta http-equiv=\\\"Content-Type\\\" content=\\\"text/html; charset=UTF-8\\\" />\n" +
             "</head>\n" + "<body>";
     public static String htmlBottom = "</body>\n" + "</html>";
-    public static SongResultDao db;
+   // public static SongResultDao db;
 
     //Для ускорения популярных запросов
     public static final Boolean usePopular = false;
